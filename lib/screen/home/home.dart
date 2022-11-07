@@ -194,7 +194,7 @@ class _HomeState extends State<Home> {
                   );
                 }
                 else{
-                  return GestureDetector(
+                  return GestureDetector(//D
                     child: ReusableCard(
                       color: Color(0xFF757575),
                       cardChild: IconContent(
